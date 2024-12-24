@@ -117,3 +117,8 @@ update students_01 set marks = 0  where marks = null; #Wrong statement
 select * from students_01;
 update students_01 set marks = 0  where marks is null; #Correct statement
 select * from students_01;
+
+create table student02 select * from students_01;
+select * from student02;
+
+update student02 set course="MySQL";
