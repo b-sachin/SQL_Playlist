@@ -203,7 +203,7 @@ Rules and guidelines we need to follow so as to get the maximum benefit of RDBMS
 		c. Check
 		d. Default
 	2. Key Constraints
-    3. Referential Key Integrity Constraints
+    3. Referential Key authorsauthorsIntegrity Constraints
 */
 
 create table student5(sid int unique, sname varchar(50) not null, age int check(age>18), course varchar(20) default "MYSQL");
